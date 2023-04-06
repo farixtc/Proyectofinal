@@ -36,10 +36,16 @@ Los usuarios podran realizar las siguientes accciones:
 Tecnología Utilizada
 Front-End
 .HTML5
+
 .Css 3
+
 .Bootstrap 5
+
 Back-End
+
 Python 3.10.9
+
 Django 4.1.7
+
 Video Demostración
 https://www.youtube.com/watch?v=ymbh0ja5Q0w&ab_channel=Farid
