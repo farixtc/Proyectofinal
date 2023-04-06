@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color:  rgb(35, 109, 179)
+        }
+    </style>
+</head>
+<body>
+    Inicia sesion si ya tienes una cuenta , registrate si eres nuevo usuario
+    <form action="" method="POST">
+        {% csrf_token %}
+            {{ form.as_p }}
+        <button type="submit">Iniciar sesion</button>
+        <a href="{% url 'registro' %}"><button type="button">Registrate</button></a>
+    </form>
+</body>
+</html>

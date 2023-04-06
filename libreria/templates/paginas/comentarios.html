@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Comentarios{% endblock %}
+
+{% block contenido %}
+  <h1>Comentarios</h1>
+  <form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="texto">Nuevo comentario:</label>
+      <textarea class="form-control" name="texto" id="texto" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+  <hr>
+  {% if comentarios %}
+    {% for comentario in comentarios %}
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">{{ comentario.autor }}</h5>
+          <p class="card-text">{{ comentario.texto }}</p>
+          <p class="card-text"><small class="text-muted">{{ comentario.fecha }}</small></p>
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No hay comentarios</p>
+  {% endif %}
+{% endblock %}

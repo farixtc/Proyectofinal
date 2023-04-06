@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Editar perfil{% endblock %}
+
+{% block contenido %}
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1 class="text-center">Editar perfil</h1>
+        <form method="POST">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="{{ user_form.username.id_for_label }}">Nombre de usuario:</label>
+            {{ user_form.username }}
+          </div>
+          <div class="form-group">
+            <label for="{{ user_form.password1.id_for_label }}">Contraseña:</label>
+            {{ user_form.password1 }}
+          </div>
+          <div class="form-group">
+            <label for="{{ user_form.password2.id_for_label }}">Repetir contraseña:</label>
+            {{ user_form.password2 }}
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
