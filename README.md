@@ -14,13 +14,21 @@ a la pagina y podra lograr interactuar con ella
 
 Los usuarios podran realizar las siguientes accciones:
 -Lograr interactuar con los usuarios en  los comentarios
+
 -editar su usuario y su contraseña
+
 -Cerrar Sesion
+
 -Podra entrar al login en caso de que haya cerrado sesion
+
 -Crear titulo de libros
+
 -Adjuntar imagenes de los libros
+
 -hacer una reseña de los libros
+
 -Editar los Libros 
+
 -Eliminar libros 
 
 
