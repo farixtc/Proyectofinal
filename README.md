@@ -15,7 +15,7 @@ a la pagina y podra lograr interactuar con ella
 Los usuarios podran realizar las siguientes accciones:
 -Lograr interactuar con los usuarios en  los comentarios
 
--editar su usuario y su contraseña
+-Editar su usuario y su contraseña
 
 -Cerrar Sesion
 
