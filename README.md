@@ -2,11 +2,12 @@
 Alumno: Farid Tanta
 Nombre del Proyecto
 Labuk
-
+------------------------------------------------------------------
 Versión
 0.1
 
-Descripción del Proyecto
+Descripción del Proyecto:
+-------------------------------------------------------------------
 Pagina web , blog personal para usuarios que hagan reseñas sus libros favoritos
 
 Al momento de la navegacion el usuario tendra que crearse una cuenta en la seccion de registrar inmediatamente sera redirigido al login donde podra dar inicio 
