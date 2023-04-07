@@ -13,6 +13,7 @@ Al momento de la navegacion el usuario tendra que crearse una cuenta en la secci
 a la pagina y podra lograr interactuar con ella
 
 Los usuarios podran realizar las siguientes accciones:
+--------------------------------------------------------
 -Lograr interactuar con los usuarios en  los comentarios
 
 -Editar su usuario y su contraseña
